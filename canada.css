@@ -203,6 +203,19 @@ text-align: center;
     top: 480px; left: 80px;
 }
 
+.bottom-container2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#logo-montréal {
+    position: relative;
+    top: 0px; left: 0px;
+}
+.bottom-container2-1 {
+    display: flex;
+    justify-content: space-around;
+}
 
 
 
