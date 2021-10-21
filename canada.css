@@ -179,6 +179,8 @@ text-align: center;
     width: 300px;
     text-align: center;
     border-radius: 10% 10% 10% 10%;
+    position: relative;
+    top: 190px; left: 28px;
 }
 .middle-top-container2 {
     height: 600px; 
