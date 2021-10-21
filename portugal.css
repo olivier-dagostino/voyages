@@ -1,0 +1,98 @@
+.intro{
+
+    display: flex;
+    margin-bottom: 150px;
+    margin-top: 100px;
+}
+
+
+h2{
+    font-size: 50px;
+    text-align: center;
+    color: #e0c879;
+    font-weight: bold;
+    
+}
+
+h3{
+    font-size: 38px;
+    text-align: center;
+    color: #e0c879;
+    font-weight: bold;
+    
+}
+
+.Text1{
+    font-size: 25px;
+    text-align: left;
+    float: left;
+    color: grey;
+
+}
+
+.drapeau{
+
+    float: right;
+}
+
+.contain1{
+
+    display: flex;
+    margin-bottom: 150px;
+    
+}
+
+.Text2{
+    font-size: 25px;
+    margin-top: 70px;
+    float: right;
+    color: grey;
+}
+
+.pc1{
+
+    float: left;
+}
+
+
+
+/*DEBUT TABLEAU*/
+
+
+table {
+    
+    width: 800px;
+    overflow: hidden;
+    box-shadow: 0 0 20px #927d39;
+    margin: auto;
+    margin-bottom: 80px;
+    border-collapse: collapse;
+    border-radius: 3%;
+    
+  }
+
+th{
+    
+    font-size: 20px;
+}
+
+th, td {
+    padding: 15px;
+    background-color: #e0c879;
+    color: rgb(3, 3, 3);
+  }
+
+th {
+    text-align: left;
+  }
+
+thead th {
+    background-color: #927d39;
+  }
+
+  
+tbody td {
+    position: relative;
+  }
+
+
