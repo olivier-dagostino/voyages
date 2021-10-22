@@ -237,11 +237,12 @@ text-align: center;
     width: 300px
 }
 
-.video {
+.container3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 20% 20% 20% 20%;
+    padding-top: 160px;
+    padding-bottom: 60px;
 
 }
 
