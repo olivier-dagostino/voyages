@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -9,6 +10,7 @@ html{
   
   
   body{
+    font-family: 'Indie Flower', cursive;
     background-color: #ffe9ff;
     min-height: 100%;
     margin: 0;
@@ -83,10 +85,50 @@ nav > ul li:hover .sous{
     content:" ▼";
     font-size: 12px;
 }
+/* fin header */
 
+/* début du main */
 
+main {
+    display: flex;
+    flex-direction: column;
+}
+.container1 {
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    
+}
+#logo2 {
+    width: 300px;
+    height: 300px;
+}
+.container2 {
+    background-color: yellow;
+    text-align: center;
+}
+.container3 {
+    background-color: yellowgreen
+}
+.container4 {
+    background-color: grey;
+}
+.container5 {
+    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+}
+.presentation-Olivier {
+    background-color: royalblue;
 
-
+}
+.profil-oli {
+    background-color: springgreen;
+}
+#photo-profil-oli {
+    width: 200px;
+    height: 200px;
+}
 
 
 
