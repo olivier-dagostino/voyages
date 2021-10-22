@@ -1,4 +1,9 @@
-/* Body */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+body {
+    font-family: 'Indie Flower', cursive;
+}
+    /* Body */
+
 
     /* Header */
 
@@ -6,10 +11,10 @@
     *{
     margin: 0px;
     padding: 0px;
-    font-family: Avenir, sans-serif;
 }
 
 nav{
+    font-size: 1.875em;
     width: 100%;
     margin: 0 auto;
     position: sticky;
@@ -88,6 +93,7 @@ nav > ul li:hover .sous{
     flex-direction: column;
 }
 .top-container1{
+    font-size: 1.875em;
     border-radius:  0% 0% 60% 60%;
     background-color: #d52b1e;
     text-align: center;
@@ -161,11 +167,6 @@ text-align: center;
 }
 
 
-
-
-
-
-
 .top-container2 {
     display: flex;
     justify-content: space-evenly;
@@ -217,6 +218,7 @@ text-align: center;
     justify-content: space-around;
 }
 .intro-montreal {
+    font-family: 'Indie Flower', cursive;
     background-color: steelblue;
     text-align: center;
     padding: 50px;
