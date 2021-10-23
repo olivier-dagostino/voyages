@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+body {
+    font-family: 'Indie Flower', cursive;
+}
         /* Nav */
         *{
             margin: 0px;
@@ -88,41 +91,72 @@ main {
     display: flex;
     flex-direction: column;
 }
-.container1 {
-    background-color: purple;
+
+.container2 {
+    background-color: #ffff00;
+    text-align: center;
     display: flex;
-    justify-content: center;
-    
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    padding: 40px;
+    border-radius: 10% 10% 10% 10%;
+    position: relative;
+    top: 80px; left: 100px;
 }
 #logo2 {
     width: 300px;
     height: 300px;
 }
-.container2 {
-    background-color: yellow;
-    text-align: center;
-}
+
 .container3 {
     background-color: yellowgreen
 }
 .container4 {
-    background-color: grey;
-}
-.container5 {
-    background-color: red;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    height: 800px;
 }
-.presentation-Olivier {
-    background-color: royalblue;
+.container4-left {
+    display: flex;
+    justify-content: left;
+    
+}
+#photo-profil-Sirine {
+    height: 250px;
+    width: 300px;
+}
+.container4-right {
+    width: 600px;
+    border: indigo;
+    background-image: url(backgroundtext.jpeg);
+    padding: 40px;
+    border-radius: 10% 10% 10% 10%;
+}   
+.container5 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 800px;
+}
+.presentation-oliv {
+    background-image: url(backgroundtext.jpeg);
+    height: fit-content;
+    border: indigo;
+    padding: 40px;
+    border-radius: 10% 10% 10% 10%;
 
 }
 .profil-oli {
     background-color: springgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #photo-profil-oli {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 
 
