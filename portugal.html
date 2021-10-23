@@ -8,13 +8,36 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
 
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Présentation</a></li>
+                <li class="deroulant"><a href="#">Destination &ensp;</a>
+                    <ul class="sous">
+                        <li><a href="#">Europe</a></li>
+
+                        <li><a href="#">Amérique du nord</a></li>
+                        <li><a href="#">Asie</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">A propos</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="boite1">
+            <marquee width="100%" scrollamount="2" scrolldelay="2">
+                <!-- L'objet parcourt 2px chaque 10ms -->
+                <img src="Logo.png">
+            </marquee>
+        </div>
 
     </header>
     
 
-    <main>
+    <main class="background">
         <h2>LE PORTUGAL</h2>
         <div class="intro">
             <div class="introtext">
@@ -30,7 +53,7 @@
                 </p>
             </div>
     
-            <div class="drapeau">
+            <div class="pict1">
                 <img src="intro.jpg" alt="">
             </div>
 
@@ -201,13 +224,9 @@
 
                         
                         </tr>
-
-                    
                     </tbody>
                 </table> 
-
             </div>
-
 
     </main>
 
