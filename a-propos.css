@@ -121,6 +121,10 @@ main {
     padding: 40px;
     border-radius: 10% 10% 10% 10%;
 }
+#photo-meline{
+    height: 250px;
+    width: 300px;
+}
 .container4 {
     display: flex;
     justify-content: space-evenly;
