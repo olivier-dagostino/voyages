@@ -10,7 +10,7 @@ body {
     padding: 0px;
 }
 nav{
-    width: 100%;
+    width: auto;
     margin: 0 auto;
     background-color: rgb(10, 25, 87);
     position: sticky;
@@ -19,14 +19,14 @@ nav{
 
 .conteneur-nav{
     position: absolute;
-    width: 100%;
+    width: auto;
 }
 nav input[type=checkbox]{
     display: none;
 }
 nav label{
     display: inline-block;
-    width: 100%;
+    width: auto;
     padding: 10px 0px;
     text-align: center;
     background-color: rgba(128, 128, 128, 0.516);
@@ -212,12 +212,13 @@ main {
     height: 250px;
 }
 
-
+/* fin du main */
 
 
 
 
 /*DEBUT FOOTER VOYAGE*/
+
 .container{
     max-width: 1170px;
     margin: auto;
