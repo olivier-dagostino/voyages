@@ -6,7 +6,6 @@ body {
 
     /* Header */
 
-    /* Nav */
    /* Nav */
 /*Reset CSS*/
 *{
@@ -125,33 +124,46 @@ nav a{
 .boite1{
     width: auto;
     height: auto;
-    background-image: url(bande1.png);
+    background-image: url(img/bande1.png);
   
 }
 
 .Texte{
     margin-top: 20px;
     margin-bottom: 20px;
-    font-family: 'Elsie', cursive;
     font-size: 35px;
 }
 .conteneur{
     display: flex;
 }
 .centerBox{
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    height: 300px;
-    margin-left: 90px;
-    background-color: #b0f2b6;
-    width: 25%;
-    margin-top: 20px;
-    border-radius: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  margin-left: 287px;
+  background-color: #b0f2b6;
+  width: 25%;
+  margin-top: 50px;
+  margin-right: -50px;
+  border-radius: 5%;
+  
 }
+.centerBox4 {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 300px;
+  margin-left: 200px;
+  background-color: #b0f2b6;
+  width: 25%;
+  margin-top: 50px;
+  border-radius: 5%;
+ 
+}
+
 h1{
     text-align: center;
-    font-family: 'Elsie', cursive;
 }
 
 .Accueil{

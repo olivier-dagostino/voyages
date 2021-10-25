@@ -125,7 +125,7 @@ nav a{
 .boite1{
     width: auto;
     height: auto;
-    background-image: url(bande1.png);
+    background-image: url(../img/bande1.png);
   
 }
 
@@ -141,7 +141,7 @@ nav a{
 .boite3{
     width: 500px;
     height: 400px;
-    background-image: url(drapp.png);
+    background-image: url(../img/drapp.png);
     margin-left: 100px;
     margin-top: 200px;
     margin-right: 200px;
@@ -235,7 +235,7 @@ p{
     height: 700px;
     background-color: white;
     
-    background-image: url(anglet.png);
+    background-image: url(../img/anglet.png);
     float: left;
     margin-left: 100px;
     
@@ -275,7 +275,7 @@ p{
     height: 300px;
     background-color: white;
    
-    background-image: url(anglet.png);
+    background-image: url(../img/anglet.png);
     float: right;
     margin-left: 100px;
     margin-top: 50px;
@@ -312,7 +312,7 @@ p{
 width: 500px;
 height: 600px;
 
-background-image: url(lala.png);
+background-image: url(../img/lala.png);
 float: left;
 margin-left: 100px;
 border-radius: 10%;}
@@ -364,19 +364,6 @@ border-radius: 10%;}
       
         
     }
-  
-    
-
-
-.text5{
-
-    width: 500px;
-    height: 600px;
-    
-    background-image: url(lala.png);
-    float: left;
-    margin-left: 100px;
-    border-radius: 10%;}
 
 /*Footer*/
 .container{
