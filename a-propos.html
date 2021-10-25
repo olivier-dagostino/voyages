@@ -11,30 +11,34 @@
 
 <body>
     <header>
+        
         <nav>
+          <div class="conteneur-nav">
+          <label for="mobile">Menu</label>
+          <input type="checkbox" id="mobile" role="button">
             <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">Présentation</a></li>
-              <li class="deroulant"><a href="#">Destination &ensp;</a>
+              <li><a href="voyage.html">Accueil &ensp;</a>
+              </li>
+              <li><a href="voyage1.html">Présentation &ensp;</a>
+              </li>
+              <li class="deroulant"><a href="voyage2.html">Destinations &ensp;</a>
                 <ul class="sous">
-                  <li><a href="#">Europe</a></li>
-                        
-                  <li><a href="#">Amérique du nord</a></li>
-                  
+                  <li><a href="voyage5.html">Europe</a></li>
+                  <li><a href="voyage6.html">Amérique du Nord</a></li>
                 </ul>
               </li>
-              <li class="deroulant"><a href="#">A propos &ensp;</a>
+              <li class="deroulant"><a href="#">A Propos</a>
                 <ul class="sous">
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">Olivier</a></li>
-                    <li><a href="#">Sirine</a></li>
-                    <li><a href="#">Méline</a></li>
+                    <li><a href="voyages3.html">La Team</a></li>
+                    <li><a href="#ancrage-Meline">Méline</a></li>
+                    <li><a href="#ancrage-Sirine">Sirine</a></li>
+                    <li><a href="#ancrage-Olivier">Olivier</a></li>
                 </ul>
-                </li>
+            </li>
               <li><a href="#">Contact</a></li>
             </ul>
-          </nav>
-    
+          </div>
+        </nav>
           <div class="boite1"> <marquee width="100%" scrollamount="2" scrolldelay="">
             <!-- L'objet parcourt 2px chaque 10ms -->
             <img src="Logo.png">
@@ -47,7 +51,7 @@
         </div>
 
 
-        <div class="container2">
+        <div id="ancrage-Team" class="container2">
             <div class="container2-top">
                 <img src="15ecbb765efe492f9198d448aa428f32.png">
             </div>
@@ -66,7 +70,7 @@
             </div>
         </div>
 
-        <div class="container3">
+        <div id="ancrage-Meline"class="container3">
             <div class="Méline">
                 <h1>Méline</h1><br><br>
                 <p>
@@ -90,7 +94,7 @@
         </div>
 
 
-        <div class="container4">
+        <div id="ancrage-Sirine" class="container4">
             <div class="container4-left">
                 <img id="photo-profil-Sirine" src="Sirine.jpg" alt="photo-profil-Sirine">
             </div>
@@ -116,7 +120,7 @@
         </div>
 
 
-        <div class="container5">
+        <div id="ancrage-Olivier" class="container5">
             <div class="presentation-oliv">
                 <h1>Olivier</h1><br><br>
                 <p>
